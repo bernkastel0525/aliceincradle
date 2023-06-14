@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alice In Cradle</title>
+    <link rel=stylesheet href="../css/style.css">
+    <link rel="stylesheet" href="../css/introduce.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo"><img src="../img/title_logo4.png" alt="" height="70" width="130"></a>
+        <ul>
+            <li><a href="../index.html">首页</a></li>
+            <li><a href="about.html">关于</a></li>
+            <li><a href="introduce.html">故事预览</a></li>
+            <li><a href="wiki.html">百科|Wiki</a></li>
+            <li><a href="https://aliceincradle.org/zh-hans/game">官网</a></li>
+            <li><a href="member.html">游戏作者</a></li>
+        </ul>
+    </header>
+
+    <div class=app>
+        <div class=cardList>
+            <button class="cardList__btn btn btn--left">
+                <div class=icon><svg>
+                        <use xlink:href=#arrow-left></use>
+                    </svg></div>
+            </button>
+            <div class=cards__wrapper>
+                <div class="card current--card">
+                    <div class=card__image><img src=../img/introduce.png alt=""></div>
+                </div>
+                <div class="card next--card">
+                    <div class=card__image><img src=../img/introduce1.png alt=""></div>
+                </div>
+                <div class="card previous--card">
+                    <div class=card__image><img src=../img/introduce2.png alt=""></div>
+                </div>
+            </div>
+            <button class="cardList__btn btn btn--right">
+                <div class=icon><svg>
+                        <use xlink:href=#arrow-right></use>
+                    </svg></div>
+            </button>
+        </div>
+
+
+        <div class=infoList>
+            <div class=info__wrapper>
+                <div class="info current--info">
+                    <h1 class="text name">Prologue</h1>
+                    <h4 class="text location">开端</h4>
+                    <p class="text description">
+                        在我们这个地方，你必须不停地奔跑，才能留在原地。
+                    </p>
+                </div>
+                <div class="info next--info">
+                    <h1 class="text name">Sleeping Beauty Awakened</h1>
+                    <h4 class="text location">苏醒的睡美人</h4>
+                    <p class="text description">
+                        回到昨天毫无用处，因为过去的我和今天有所不同。
+                    </p>
+                </div>
+                <div class="info previous--info">
+                    <h1 class="text name">Stars</h1>
+                    <h4 class="text location">繁星</h4>
+                    <p class="text description">
+                        生命沿着无尽的星河,无止地漂流,在繁星星的光辉中,流连踯躅,人生究竟还会是什么——如果不是一场幻梦。
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class=app__bg>
+            <div class="app__bg__image current--image"><img src=../img/introbg1.png alt=""></div>
+            <div class="app__bg__image next--image"><img src=../img/introbg2.png alt=""></div>
+            <div class="app__bg__image previous--image"><img src=../img/introbg3.png alt=""></div>
+        </div>
+    </div>
+
+
+
+
+    <svg class=icons style=display:none>
+
+        <symbol id=arrow-left xmlns=http://www.w3.org/2000/svg viewbox="0 0 512 512">
+            <polyline points="328 112 184 256 328 400"
+                style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px">
+        </symbol>
+        <symbol id=arrow-right xmlns=http://www.w3.org/2000/svg viewbox="0 0 512 512">
+            <polyline points="184 112 328 256 184 400"
+                style="fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px">
+        </symbol>
+    </svg>
+
+
+
+    <script src=../gcore/imagesloaded.js></script>
+    <script src=../gcore/gsap.min.js></script>
+    <script src=../gcore/script.js></script>
+
+</body>
+
+</html>
